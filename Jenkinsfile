@@ -38,13 +38,5 @@ pipeline {
         }
       }
     }
-
-    stage('Deploy to remote server') {
-      steps {
-        docker compose up -d         
-        sleep 40
-        docker compose restart backend
-      }
-    }
   }
 }
