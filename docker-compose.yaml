@@ -26,4 +26,3 @@ services:
       - "3000:3000"
     environment:
       - REACT_APP_BACKEND_URL=http://44.204.224.24:5000
-5000
